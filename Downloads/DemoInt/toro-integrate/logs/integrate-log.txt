@@ -1,0 +1,65 @@
+04/04/16 00:08:27.748 INFO  [Main] *** TORO Integrate 2.6 Starting ***
+04/04/16 00:08:27.817 INFO  [Main] Creating JNDI Context, if startup stalls here ensure only one TORO Integrate instance is running
+04/04/16 00:09:46.888 WARN  [BrokerService] Memory Usage for the Broker (1024 mb) is more than the maximum available for the JVM: 989 mb - resetting to 70% of maximum available: 692 mb
+04/04/16 00:09:47.189 INFO  [Main] JNDI Context Created
+04/04/16 00:09:47.190 INFO  [Main] Creating root context
+04/04/16 00:09:53.293 INFO  [JDBCConnectionPoolInitialiser] Launching JDBC connection pools 
+04/04/16 00:09:53.308 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool widget
+04/04/16 00:09:54.177 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool widget completed
+04/04/16 00:09:54.178 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool tracker
+04/04/16 00:09:54.544 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool tracker completed
+04/04/16 00:09:54.544 INFO  [JDBCConnectionPoolInitialiser] Launching JDBC connection pools completed
+04/04/16 00:09:54.645 INFO  [TomcatWebManagerImpl] Initialising Tomcat
+04/04/16 00:09:54.900 INFO  [TomcatWebManagerImpl] Setting HTTP property http.port to 8080
+04/04/16 00:09:55.008 INFO  [TomcatWebManagerImpl] Setting HTTP property http.proxy.port to 
+04/04/16 00:09:55.016 INFO  [TomcatWebManagerImpl] Tomcat Initialised 
+04/04/16 00:09:56.545 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+04/04/16 00:09:56.559 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+04/04/16 00:09:58.029 WARN  [ESBVFSManagerImpl] Cache strategy oncall is not valid. Using default cache strategy onresolve. Valid options are manual,onresolve,oncall
+04/04/16 00:09:59.341 INFO  [Main] Root context created
+04/04/16 00:09:59.352 INFO  [Main] Starting web manager
+04/04/16 00:09:59.754 INFO  [NioSelectorPool] Using a shared selector for servlet write/read
+04/04/16 00:09:59.772 INFO  [TomcatWebManagerImpl] Starting tomcat
+04/04/16 00:09:59.851 INFO  [TomcatWebManagerImpl] Starting tomcat done
+04/04/16 00:09:59.852 INFO  [Main] Web manager started
+04/04/16 00:09:59.861 INFO  [Main] Starting package manager
+04/04/16 00:10:00.456 INFO  [PackageManagerImpl] Starting packages
+04/04/16 00:10:00.766 INFO  [PackageManagerImpl] Starting package core
+04/04/16 00:10:00.768 INFO  [LocalSolrServer] Starting core: core-tracker/tracker
+04/04/16 00:10:01.926 INFO  [LocalSolrServer] Starting core: core/tracker completed
+04/04/16 00:10:01.926 INFO  [LocalSolrServer] Starting core: core-invoke-monitor/invoke-monitor
+04/04/16 00:10:01.927 INFO  [LocalSolrServer] Starting core: core/invoke-monitor completed
+04/04/16 00:10:01.928 INFO  [PackageManagerImpl] Starting Spring context in package core
+04/04/16 00:10:02.115 WARN  [CacheManager] Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@60bc308b.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1459728602115.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+04/04/16 00:10:02.142 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+04/04/16 00:10:02.145 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+04/04/16 00:10:02.232 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [documentType]; using defaults.
+04/04/16 00:10:02.585 INFO  [PackageManagerImpl] Starting Spring context in package core complete
+04/04/16 00:10:02.601 INFO  [TomcatWebManagerImpl] Loading custom webapp for package core using web descriptor file at /data/web/WEB-INF/web.xml
+04/04/16 00:10:07.744 INFO  [ESBExceptionHandlerExceptionResolver] Detected @ExceptionHandler methods in RESTESBExceptionHandler
+04/04/16 00:10:09.095 INFO  [TomcatWebManagerImpl] Loading webapp for package core completed
+04/04/16 00:10:09.145 INFO  [HttpFilterEndpointManager] Starting endpoint core/tracker-filter
+04/04/16 00:10:09.153 INFO  [HttpFilterEndpointManager] Starting endpoint core/tracker-filter completed
+04/04/16 00:10:09.228 INFO  [JMSMessageEndpointManager] Starting endpoint core/tracker-listener
+04/04/16 00:10:09.245 INFO  [JMSMessageEndpointManager] Starting endpoint core/tracker-listener complete
+04/04/16 00:10:09.247 INFO  [JMSMessageEndpointManager] Starting endpoint core/monitor-listener
+04/04/16 00:10:09.264 INFO  [JMSMessageEndpointManager] Starting endpoint core/monitor-listener complete
+04/04/16 00:10:09.267 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/resource-sampler
+04/04/16 00:10:09.290 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/resource-sampler completed
+04/04/16 00:10:09.291 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/groovy-compiler
+04/04/16 00:10:09.312 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/groovy-compiler completed
+04/04/16 00:10:09.313 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.web.swagger.ESBBeanConfig.flushCaches()
+04/04/16 00:10:09.337 INFO  [PackageManagerImpl] Starting package core completed
+04/04/16 00:10:09.337 ERROR [PackageManagerImpl] Could not start package toro-googlesheets-adapter. Your license has been revoked. Reason: 
+04/04/16 00:10:09.338 ERROR [PackageManagerImpl] Could not start package toro-googlesheets-adapter. Error: License revoked
+04/04/16 00:10:09.338 ERROR [PackageManagerImpl] Could not start package toro-openweathermap-adapter. Your license has been revoked. Reason: 
+04/04/16 00:10:09.341 ERROR [PackageManagerImpl] Could not start package toro-openweathermap-adapter. Error: License revoked
+04/04/16 00:10:09.341 ERROR [PackageManagerImpl] Could not start package examples. Your license has been revoked. Reason: 
+04/04/16 00:10:09.341 ERROR [PackageManagerImpl] Could not start package examples. Error: License revoked
+04/04/16 00:10:09.342 INFO  [PackageManagerImpl] Starting packages completed
+04/04/16 00:10:09.343 INFO  [Main] Package manager started
+04/04/16 00:10:09.351 INFO  [Main] Startup completed in 01m:42s:282ms
+04/04/16 00:10:09.352 INFO  [Main] **** TORO Integrate awaiting requests, console available on port 8080 ****

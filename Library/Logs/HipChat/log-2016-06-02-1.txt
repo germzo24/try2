@@ -1,0 +1,226 @@
+2016/06/02 08:14:11:855  [Log] Scheduled next rollover for 2016-06-02 16:00:01 +0000
+2016/06/02 08:14:11:855  HipChat/4.0.9.637 (OS X Version 10.11 (Build 15A284)) Web/4.20.5 (2016.04.19.200429-f2a928a) BundleID/com.hipchat.HipChat
+2016/06/02 08:14:11:855  [App] Seconds since last shutdown: 55065.629
+2016/06/02 08:14:11:855  [Video] Installing AddLive plugin...
+2016/06/02 08:14:11:856  [Video] AddLive plugin is up to date (v3.0.6.3), nothing to do here!
+2016/06/02 08:14:11:915  [375587_3248852@chat.hipchat.com] [AccountContext] Current state updated: Authenticating
+2016/06/02 08:14:11:915  [375587_3248852@chat.hipchat.com] [Auth] Refreshing account...
+2016/06/02 08:14:11:915  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 08:14:11:916  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 08:14:11:928  HipChat/4.0.9.637 (OS X Version 10.11 (Build 15A284)) Web/4.20.5 (2016.04.19.200429-f2a928a) BundleID/com.hipchat.HipChat
+2016/06/02 08:14:11:932  [Log] Creating new log file: log-2016-06-02-1.txt
+2016/06/02 08:14:11:951  [375587_3248852@chat.hipchat.com] [AccountView] onAuthenticating() called
+2016/06/02 08:14:11:951  [375587_3248852@chat.hipchat.com] [AccountView] Destroying chat view controller
+2016/06/02 08:14:11:996  [Network] Reachability changed with status: 2
+2016/06/02 08:14:11:996  [Network] Network connected. We'll do it live!
+2016/06/02 08:14:11:997  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 08:14:11:999  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=6uYnmx...
+2016/06/02 08:14:12:001  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 08:14:12:006  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=6uYnmx...
+2016/06/02 08:14:12:007  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 08:14:12:013  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=6uYnmx...
+2016/06/02 08:14:13:685  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: UpmO6j6B..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 08:14:13:903  [375587_3248852@chat.hipchat.com] [AccountContext] Current state updated: Authenticated
+2016/06/02 08:14:13:903  [375587_3248852@chat.hipchat.com] [AccountView] onAuthenticated() called
+2016/06/02 08:14:13:903  [375587_3248852@chat.hipchat.com] [AccountView] Destroying chat view controller
+2016/06/02 08:14:13:903  [375587_3248852@chat.hipchat.com] [AccountView] Creating chat view controller
+2016/06/02 08:14:13:906  [SystemState] Starting idle monitor - idle seconds: 300.000000
+2016/06/02 08:14:13:907  [375587_3248852@chat.hipchat.com] [AccountContext] Current state updated: Loading
+2016/06/02 08:14:14:157  [375587_3248852@chat.hipchat.com] Generated chat html from template in 0.224s
+2016/06/02 08:14:14:244  [375587_3248852@chat.hipchat.com] [AccountView] onLoading() called
+2016/06/02 08:14:17:479  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 8:14:15 AM GMT+8 (3 messages)
+2016-06-02 08:14:15:927+0800  [375587_3248852@chat.hipchat.com] [WebCore] Configuring local logger JS error reporting
+2016-06-02 08:14:15:928+0800  [375587_3248852@chat.hipchat.com] [WebCore] Configuring Sentry JS error reporting for cloud host
+2016-06-02 08:14:15:946+0800  [375587_3248852@chat.hipchat.com] [WebCore] HC instance ready
+2016/06/02 08:14:22:449  [375587_3248852@chat.hipchat.com] Elapsed time from CVC reload to app state ready:  8.542s
+2016/06/02 08:14:22:449  [375587_3248852@chat.hipchat.com] [Web] Received init data, setting user ID: 3248852 and internal auth token: 6uYnmx..., expires in ms: 3770945
+2016/06/02 08:14:22:456  [UpdateManager] Checking for updates (in background? YES)
+2016/06/02 08:14:22:456  [375587_3248852@chat.hipchat.com] [Media] Remote account avatar: AccountAvatar(URL: Optional(https://s3-ap-southeast-1.amazonaws.com/uploads-ap.hipchat.com/photos/group_375587/oBcBoMWVCZSBfO1_125.png), background: "#815b3a")
+2016/06/02 08:14:22:456  [375587_3248852@chat.hipchat.com] [AccountContext] Current state updated: Online
+2016/06/02 08:14:22:456  [375587_3248852@chat.hipchat.com] [Media] Downloading remote avatar from https://s3-ap-southeast-1.amazonaws.com/uploads-ap.hipchat.com/photos/group_375587/oBcBoMWVCZSBfO1_125.png
+2016/06/02 08:14:22:457  [375587_3248852@chat.hipchat.com] [AccountView] onOnline() called
+2016/06/02 08:14:22:532  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 08:14:22:534  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=6uYnmx...
+2016/06/02 08:14:22:536  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 08:14:22:538  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=6uYnmx...
+2016/06/02 08:14:22:538  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 08:14:22:540  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=6uYnmx...
+2016/06/02 08:14:22:651  [375587_3248852@chat.hipchat.com] [AccountView] Hiding header view
+2016/06/02 08:14:23:475  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 8:14:22 AM GMT+8 (1 message)
+2016-06-02 08:14:22:415+0800  [375587_3248852@chat.hipchat.com] [WebCore] HC app connected and ready
+2016/06/02 08:14:23:476  [SystemState] Destroying idle monitor
+2016/06/02 08:14:23:477  [SystemState] Starting idle monitor - idle seconds: 900.000000
+2016/06/02 08:17:43:837  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 08:20:28:277  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 08:38:58:681  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 08:52:34:462  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 09:05:59:064  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 09:06:10:843  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 09:08:34:451  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 09:14:32:421  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 09:14:32:424  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 09:14:33:695  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: lc3m4GH0..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 09:14:34:420  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 9:14:32 AM GMT+8 (1 message)
+2016-06-02 09:14:32:417+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 09:14:35:419  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 9:14:34 AM GMT+8 (1 message)
+2016-06-02 09:14:34:417+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464833672,"access_token":"lc3m4GH0...","expires_in":3599}
+2016/06/02 09:17:13:971  [375587_3248852@chat.hipchat.com] [Web] Received new internal auth token: bM62Ep..., expires in ms: Optional(86404061)
+2016/06/02 09:17:13:986  [UpdateManager] Checking for updates (in background? YES)
+2016/06/02 09:17:13:987  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 09:17:13:993  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=bM62Ep...
+2016/06/02 09:17:13:995  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 09:17:14:000  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=bM62Ep...
+2016/06/02 09:17:14:000  [UpdateManager] Setting updater base URL for updates: https://www.hipchat.com/release_notes/appcast/mac?version=637&bundle=com.hipchat.HipChat&includeMinor=0
+2016/06/02 09:17:14:006  [375587_3248852@chat.hipchat.com] [UpdateManager] Adding internal auth params to update URL: user=3248852, token=bM62Ep...
+2016/06/02 09:45:53:452  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 09:46:03:483  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 09:46:16:657  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 09:46:55:555  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:06:34:390  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 10:09:51:550  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 10:10:00:025  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:11:49:043  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 10:11:50:008  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:12:52:071  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 10:12:57:050  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(false)
+2016/06/02 10:12:57:817  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:13:10:101  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 10:13:14:669  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:13:54:127  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 10:13:57:509  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:14:39:463  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 10:14:39:464  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 10:14:39:611  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 10:14:39 AM GMT+8 (1 message)
+2016-06-02 10:14:39:461+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 10:14:41:417  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: hoRL8u6T..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 10:14:41:613  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 10:14:41 AM GMT+8 (1 message)
+2016-06-02 10:14:41:428+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464837280,"access_token":"hoRL8u6T...","expires_in":3599}
+2016/06/02 10:16:21:482  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 10:16:27:058  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(false)
+2016/06/02 10:16:29:098  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(3) with mention Optional(false)
+2016/06/02 10:16:40:893  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(4) with mention Optional(false)
+2016/06/02 10:16:42:206  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:18:04:865  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 10:18:05:655  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(false)
+2016/06/02 10:18:06:879  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(3) with mention Optional(false)
+2016/06/02 10:18:38:947  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:24:27:956  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 10:24:33:743  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(true)
+2016/06/02 10:24:34:639  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:26:43:193  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 10:27:43:214  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 10:27:52:127  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(true)
+2016/06/02 10:27:54:398  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:32:14:682  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 10:32:18:633  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 10:51:10:391  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 11:03:09:557  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 11:03:12:556  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 11:15:10:310  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 11:15:10 AM GMT+8 (1 message)
+2016-06-02 11:15:10:306+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 11:15:10:310  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 11:15:10:311  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 11:15:11:902  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: U1swW2SG..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 11:15:15:568  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 11:15:12 AM GMT+8 (1 message)
+2016-06-02 11:15:12:305+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464840910,"access_token":"U1swW2SG...","expires_in":3599}
+2016/06/02 11:19:26:976  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 11:19:32:137  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 11:19:40:751  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 11:20:27:128  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(false)
+2016/06/02 11:20:39:852  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 11:21:56:406  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(false)
+2016/06/02 11:23:30:666  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 11:37:52:764  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 12:07:49:575  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 12:15:17:254  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 12:15:17:254  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 12:15:17 PM GMT+8 (1 message)
+2016-06-02 12:15:17:250+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 12:15:17:254  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 12:15:18:602  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: Jm6d8fs6..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 12:15:27:915  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 12:15:19 PM GMT+8 (1 message)
+2016-06-02 12:15:19:250+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464844517,"access_token":"Jm6d8fs6...","expires_in":3599}
+2016/06/02 12:48:43:222  [SystemState] System is now idle. Boooring!
+2016/06/02 12:54:12:218  [SystemState] System is now active. We're back!
+2016/06/02 13:15:33:356  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 13:15:33:356  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 13:15:34:859  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: UTEvT52A..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 13:15:35:200  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 1:15:33 PM GMT+8 (1 message)
+2016-06-02 13:15:33:355+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 13:15:45:344  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 1:15:35 PM GMT+8 (1 message)
+2016-06-02 13:15:35:195+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464848133,"access_token":"UTEvT52A...","expires_in":3599}
+2016/06/02 14:13:16:417  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 14:14:19:579  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 14:15:42:728  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 14:15:42:728  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 2:15:42 PM GMT+8 (1 message)
+2016-06-02 14:15:42:724+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 14:15:42:728  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 14:15:44:717  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: UrzJDYOA..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 14:15:46:275  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 2:15:45 PM GMT+8 (1 message)
+2016-06-02 14:15:45:138+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464851743,"access_token":"UrzJDYOA...","expires_in":3599}
+2016/06/02 15:04:39:775  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 15:10:25:646  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 15:15:49:596  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 15:15:49:598  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 15:15:51:285  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: oXuAYMz5..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 15:15:51:294  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 3:15:49 PM GMT+8 (1 message)
+2016-06-02 15:15:49:593+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 15:15:53:087  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 3:15:52 PM GMT+8 (1 message)
+2016-06-02 15:15:52:085+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464855350,"access_token":"oXuAYMz5...","expires_in":3599}
+2016/06/02 15:23:43:452  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 15:34:46:693  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 16:09:16:569  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 16:12:18:226  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 16:12:23:923  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 16:14:16:598  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 16:14:35:269  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 16:15:57:438  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 16:15:57:438  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 16:15:58:408  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 4:15:57 PM GMT+8 (1 message)
+2016-06-02 16:15:57:435+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 16:16:07:498  [375587_3248852@chat.hipchat.com] [Auth] Refresh access token failed due to: AuthenticationErrorDetails(code: 400, key: "request_failed", description: "Could not complete request: \'The request timed out.\'")
+2016/06/02 16:16:08:419  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 4:16:07 PM GMT+8 (1 message)
+2016-06-02 16:16:07:502+0800  [375587_3248852@chat.hipchat.com] [WebCore] Rejecting oauth token refresh with error: {"error_description":"Could not complete request: 'The request timed out.'","error":"request_failed","error_code":400}
+2016/06/02 16:16:17:508  [375587_3248852@chat.hipchat.com] [Auth] Refreshing access token...
+2016/06/02 16:16:17:509  [375587_3248852@chat.hipchat.com] [Auth] Issuing access token request to https://api.hipchat.com/v2/oauth/token with body:
+[grant_type: refresh_token, client_name: com.atlassian.hipchat.osx-clients, refresh_token: J2AChOQt..., user_id: 3248852, group_id: 375587]
+2016/06/02 16:16:18:422  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 4:16:17 PM GMT+8 (1 message)
+2016-06-02 16:16:17:505+0800  [375587_3248852@chat.hipchat.com] [WebCore] Requesting oauth token refresh...
+2016/06/02 16:16:23:395  [375587_3248852@chat.hipchat.com] [Auth] Access token acquired:
+[expires_in: 3599, access_token: 9xskkq3F..., group_name: TORO, token_type: bearer, refresh_token: J2AChOQt..., group_id: 375587, scope: admin_room manage_rooms send_message view_group view_messages view_room]
+2016/06/02 16:16:23:448  [375587_3248852@chat.hipchat.com] [Web] Web Core log since 4:16:23 PM GMT+8 (1 message)
+2016-06-02 16:16:23:406+0800  [375587_3248852@chat.hipchat.com] [WebCore] Resolving oauth token refresh with info:
+{"expires_at":1464858982,"access_token":"9xskkq3F...","expires_in":3599}
+2016/06/02 16:39:07:658  [375587_3248852@chat.hipchat.com] [Web] Host request timeout detected
+2016/06/02 16:50:47:817  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 16:50:48:808  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(true)
+2016/06/02 16:50:55:341  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 16:58:01:778  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(1) with mention Optional(true)
+2016/06/02 16:58:12:627  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(2) with mention Optional(true)
+2016/06/02 16:59:34:126  [375587_3248852@chat.hipchat.com] [Web] Unread count updated Optional(0) with mention Optional(false)
+2016/06/02 17:00:55:834  [375587_3248852@chat.hipchat.com] [Web] Sending shutdown request
+2016/06/02 17:00:57:362  [375587_3248852@chat.hipchat.com] [Web] Shutdown response received
+2016/06/02 17:00:57:834  [375587_3248852@chat.hipchat.com] [Web] Shutdown response timeout

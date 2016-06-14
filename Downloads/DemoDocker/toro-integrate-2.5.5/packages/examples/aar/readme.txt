@@ -1,0 +1,1 @@
+This is the directory where aar files will go when adding axis-aar endpoints to the ESB

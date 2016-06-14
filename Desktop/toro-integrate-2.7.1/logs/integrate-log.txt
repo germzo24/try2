@@ -1,0 +1,112 @@
+14/06/16 10:20:34.823 INFO  [Main] *** TORO Integrate 2.7.1 Starting ***
+14/06/16 10:20:34.840 INFO  [Main] Creating JNDI Context, if startup stalls here ensure only one TORO Integrate instance is running
+14/06/16 10:20:39.237 WARN  [BrokerService] Memory Usage for the Broker (1024 mb) is more than the maximum available for the JVM: 910 mb - resetting to 70% of maximum available: 637 mb
+14/06/16 10:20:39.621 INFO  [Main] JNDI Context Created
+14/06/16 10:20:39.621 INFO  [Main] Creating root context
+14/06/16 10:20:45.901 INFO  [JDBCConnectionPoolInitialiser] Launching JDBC connection pools 
+14/06/16 10:20:45.911 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool widget
+14/06/16 10:20:47.093 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool widget completed
+14/06/16 10:20:47.093 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool tracker
+14/06/16 10:20:47.760 INFO  [JDBCConnectionManagerImpl] Starting JDBC Connection pool tracker completed
+14/06/16 10:20:47.760 INFO  [JDBCConnectionPoolInitialiser] Launching JDBC connection pools completed
+14/06/16 10:20:47.916 INFO  [TomcatWebManagerImpl] Initialising Tomcat
+14/06/16 10:20:48.008 INFO  [TomcatWebManagerImpl] Setting HTTP property http.proxy.port to 
+14/06/16 10:20:48.054 INFO  [TomcatWebManagerImpl] Setting HTTP property http.port to 8080
+14/06/16 10:20:48.054 INFO  [TomcatWebManagerImpl] Tomcat Initialised 
+14/06/16 10:20:48.620 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+14/06/16 10:20:48.635 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+14/06/16 10:20:50.442 WARN  [ESBVFSManagerImpl] Cache strategy oncall is not valid. Using default cache strategy onresolve. Valid options are manual,onresolve,oncall
+14/06/16 10:20:54.346 INFO  [Main] Root context created
+14/06/16 10:20:54.346 INFO  [Main] Starting web manager
+14/06/16 10:20:54.737 INFO  [NioSelectorPool] Using a shared selector for servlet write/read
+14/06/16 10:20:54.740 INFO  [TomcatWebManagerImpl] Starting tomcat
+14/06/16 10:20:54.771 INFO  [TomcatWebManagerImpl] Starting tomcat done
+14/06/16 10:20:54.772 INFO  [Main] Web manager started
+14/06/16 10:20:54.772 INFO  [Main] Starting package manager
+14/06/16 10:20:54.772 INFO  [PackageManagerImpl] Starting packages
+14/06/16 10:20:54.889 INFO  [PackageManagerImpl] Starting package core
+14/06/16 10:20:54.889 INFO  [LocalSolrServer] Starting core: core/tracker
+14/06/16 10:20:57.434 INFO  [LocalSolrServer] Starting core: core/tracker completed
+14/06/16 10:20:57.435 INFO  [LocalSolrServer] Starting core: core/invoke_monitor
+14/06/16 10:20:57.963 INFO  [LocalSolrServer] Starting core: core/invoke_monitor completed
+14/06/16 10:20:57.964 INFO  [PackageManagerImpl] Starting Spring context in package core
+14/06/16 10:20:58.122 WARN  [CacheManager] Creating a new instance of CacheManager using the diskStorePath "/var/folders/7v/2pflc8h50fd9c0nndbf4dbwc0000gp/T/" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@1f3f0d25.
+The diskStore path for this CacheManager will be set to /var/folders/7v/2pflc8h50fd9c0nndbf4dbwc0000gp/T//ehcache_auto_created_1465870858122.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+14/06/16 10:20:58.124 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+14/06/16 10:20:58.125 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+14/06/16 10:20:58.154 WARN  [AbstractEhcacheRegionFactory] HHH020003: Could not find a specific ehcache configuration for cache named [documentType]; using defaults.
+14/06/16 10:20:58.410 INFO  [PackageManagerImpl] Starting Spring context in package core complete
+14/06/16 10:20:58.471 INFO  [TomcatWebManagerImpl] Loading custom webapp for package core using web descriptor file at /Users/germilgonzales/Desktop/toro-integrate-2.7.1/web/WEB-INF/web.xml
+14/06/16 10:21:02.129 INFO  [ESBExceptionHandlerExceptionResolver] Detected @ExceptionHandler methods in RESTESBExceptionHandler
+14/06/16 10:21:02.982 INFO  [TomcatWebManagerImpl] Loading webapp for package core completed
+14/06/16 10:21:03.022 INFO  [HttpFilterEndpointManager] Starting endpoint core/tracker-filter
+14/06/16 10:21:03.024 INFO  [HttpFilterEndpointManager] Starting endpoint core/tracker-filter completed
+14/06/16 10:21:03.107 INFO  [JMSMessageEndpointManager] Starting endpoint core/tracker-listener
+14/06/16 10:21:03.118 INFO  [JMSMessageEndpointManager] Starting endpoint core/tracker-listener complete
+14/06/16 10:21:03.119 INFO  [JMSMessageEndpointManager] Starting endpoint core/monitor-listener
+14/06/16 10:21:03.122 INFO  [JMSMessageEndpointManager] Starting endpoint core/monitor-listener complete
+14/06/16 10:21:03.122 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/resource-sampler
+14/06/16 10:21:03.139 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/resource-sampler completed
+14/06/16 10:21:03.140 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/groovy-compiler
+14/06/16 10:21:03.141 INFO  [QuartzSchedulerEndpointManager] Starting endpoint core/groovy-compiler completed
+14/06/16 10:21:03.142 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.web.swagger.ESBBeanConfig.flushCaches()
+14/06/16 10:21:03.167 INFO  [PackageManagerImpl] Starting package core completed
+14/06/16 10:21:03.168 INFO  [PackageManagerImpl] Starting package toro-payment-integrate-package
+14/06/16 10:21:03.238 INFO  [JMSMessageEndpointManager] Starting endpoint toro-payment-integrate-package/payment-listener
+14/06/16 10:21:03.240 INFO  [JMSMessageEndpointManager] Starting endpoint toro-payment-integrate-package/payment-listener complete
+14/06/16 10:21:03.271 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.web.swagger.ESBBeanConfig.flushCaches()
+14/06/16 10:21:04.059 INFO  [PackageManagerImpl] Starting package toro-payment-integrate-package completed
+14/06/16 10:21:04.060 ERROR [PackageManagerImpl] Integrate package "toro-intercomio-adapter" dependency start up failure. Cause: null
+14/06/16 10:21:04.060 ERROR [PackageManagerImpl] Could not start package toro-intercomio-adapter. Error: Cannot start package toro-intercomio-adapter. One or more package dependencies has failed to start.
+14/06/16 10:21:04.062 INFO  [PackageManagerImpl] Starting package examples
+14/06/16 10:21:04.063 INFO  [TomcatWebManagerImpl] Creating default webapp for package examples, since it has no web/WEB-INF/web.xml file, but has a web directory
+14/06/16 10:21:04.369 INFO  [TomcatWebManagerImpl] Loading webapp for package examples completed
+14/06/16 10:21:04.391 INFO  [JMSMessageEndpointManager] Starting endpoint examples/commerce-jms-listener
+14/06/16 10:21:04.394 INFO  [JMSMessageEndpointManager] Starting endpoint examples/commerce-jms-listener complete
+14/06/16 10:21:04.454 WARN  [StartStopService] start service called
+14/06/16 10:21:04.455 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.web.swagger.ESBBeanConfig.flushCaches()
+14/06/16 10:21:04.831 INFO  [PackageManagerImpl] Starting package examples completed
+14/06/16 10:21:04.831 INFO  [PackageManagerImpl] Starting packages completed
+14/06/16 10:21:04.832 INFO  [Main] Package manager started
+14/06/16 10:21:04.832 INFO  [Main] Startup completed in 00m:30s:520ms
+14/06/16 10:21:04.832 INFO  [Main] **** TORO Integrate awaiting requests, console available on port 8080 ****
+14/06/16 10:21:48.405 INFO  [PackageManagerImpl] Attempting to stop all activities in erroneous package 'toro-intercomio-adapter' before deletion
+14/06/16 10:21:48.406 INFO  [PackageManagerImpl] Stopping package toro-intercomio-adapter
+14/06/16 10:21:48.406 DEBUG [MethodCallingPackageEventListener] Called org.springframework.web.servlet.mvc.method.annotation.ESBRequestMappingHandlerAdapter.clearCaches()
+14/06/16 10:21:48.407 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.service.impl.groovy.CachingGroovyServiceGroup.clearCache()
+14/06/16 10:21:48.407 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.service.impl.java.JavaInvokeableService.clearCache()
+14/06/16 10:21:48.407 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.core.annotation.AnnotationUtils.findAnnotationCache. Size before clearing: 446
+14/06/16 10:21:48.407 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource.attributeCache. Size before clearing: 1524
+14/06/16 10:21:48.407 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.core.SerializableTypeWrapper.cache. Size before clearing: 235
+14/06/16 10:21:48.407 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.core.ResolvableType.cache. Size before clearing: 866
+14/06/16 10:21:48.407 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.core.annotation.AnnotationUtils.annotatedInterfaceCache. Size before clearing: 51
+14/06/16 10:21:48.407 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.util.ReflectionUtils.declaredMethodsCache. Size before clearing: 485
+14/06/16 10:21:48.407 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.web.swagger.ESBBeanConfig.flushCaches()
+14/06/16 10:21:48.407 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.xml.xstream.JaxbXstreamJacksonObjectConverter.clearCaches()
+14/06/16 10:21:48.408 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.beans.CachedIntrospectionResults.strongClassCache. Size before clearing: 282
+14/06/16 10:21:48.408 DEBUG [FieldClearingPackageEventListener] Called clear on org.springframework.beans.CachedIntrospectionResults.softClassCache. Size before clearing: 42
+14/06/16 10:21:48.514 DEBUG [FieldClearingPackageEventListener] Called clear on java.beans.Introspector.declaredMethodCache. Size before clearing: 540
+14/06/16 10:21:48.515 DEBUG [MethodCallingPackageEventListener] Called java.beans.Introspector.flushCaches()
+14/06/16 10:21:48.515 DEBUG [FieldClearingPackageEventListener] Called clear on com.sun.beans.TypeResolver.CACHE. Size before clearing: 26
+14/06/16 10:21:48.515 DEBUG [WeakCachePackageEventListener] Called clear on ObjectStreamClass$Caches.localDescs. Size before clearing: 6
+14/06/16 10:21:48.515 DEBUG [WeakCachePackageEventListener] Called clear on ObjectStreamClass$Caches.reflectors. Size before clearing: 6
+14/06/16 10:21:48.876 DEBUG [MethodCallingPackageEventListener] Called java.lang.System.gc()
+14/06/16 10:21:48.876 INFO  [PackageManagerImpl] Stopping package toro-intercomio-adapter completed
+14/06/16 10:23:05.503 ERROR [PackageManagerImpl] Integrate package "toro-github-dirwatcher" dependency start up failure. Cause: null
+14/06/16 10:23:19.246 INFO  [PackageManagerImpl] Starting package github-connector
+14/06/16 10:23:19.246 INFO  [TomcatWebManagerImpl] Creating default webapp for package github-connector, since it has no web/WEB-INF/web.xml file, but has a web directory
+14/06/16 10:23:19.601 DEBUG [ESBPackage] Adding extension module defined in jar:file:/Users/germilgonzales/Desktop/toro-integrate-2.7.1/packages/github-connector/lib/toro-github-connector-1.0.7.jar!/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule
+14/06/16 10:23:19.732 DEBUG [ESBPackage] Adding extension module defined in jar:file:/Users/germilgonzales/Desktop/toro-integrate-2.7.1/packages/github-connector/lib/toro-github-connector-1.0.7.jar!/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule complete
+14/06/16 10:23:19.785 INFO  [TomcatWebManagerImpl] Loading webapp for package github-connector completed
+14/06/16 10:23:19.788 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.web.swagger.ESBBeanConfig.flushCaches()
+14/06/16 10:23:19.862 INFO  [PackageManagerImpl] Starting package github-connector completed
+14/06/16 10:23:19.877 INFO  [PackageManagerImpl] Starting package toro-github-dirwatcher
+14/06/16 10:23:19.877 INFO  [TomcatWebManagerImpl] Creating default webapp for package toro-github-dirwatcher, since it has no web/WEB-INF/web.xml file, but has a web directory
+14/06/16 10:23:20.230 INFO  [TomcatWebManagerImpl] Loading webapp for package toro-github-dirwatcher completed
+14/06/16 10:23:20.231 DEBUG [MethodCallingPackageEventListener] Called com.toro.esb.core.web.swagger.ESBBeanConfig.flushCaches()
+14/06/16 10:23:20.333 INFO  [PackageManagerImpl] Starting package toro-github-dirwatcher completed
+14/06/16 10:55:15.020 WARN  [Transport] Transport Connection to: tcp://192.168.22.4:55689 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>10000) long: tcp://192.168.22.4:55689
+14/06/16 10:57:00.457 WARN  [Transport] Transport Connection to: tcp://192.168.22.4:58385 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>10000) long: tcp://192.168.22.4:58385
+14/06/16 10:59:25.528 WARN  [Transport] Transport Connection to: tcp://192.168.22.4:58524 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>10000) long: tcp://192.168.22.4:58524

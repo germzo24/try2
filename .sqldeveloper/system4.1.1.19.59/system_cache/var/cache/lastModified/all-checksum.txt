@@ -1,0 +1,11 @@
+/netbeans/platform=1432091500000
+cluster./netbeans/fcpbridge=1432092044000
+cluster./netbeans/ide=1432090290000
+cluster.=0
+cluster./dropins=0
+user=1432092044000
+crc=7
+locale=en_US
+branding=jdev
+java.version=1.8.0_66
+java.vm.version=25.66-b17
